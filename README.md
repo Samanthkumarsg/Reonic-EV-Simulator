@@ -44,6 +44,18 @@ This project was built entirely from scratch, leveraging modular components and 
 - **Vite**: Fast build tool for modern web applications.
 - **Vercel**: Hosting platform for deployment.
 
+- 
+
+## Screenshots
+
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/1.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/2.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/3.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/4.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/5.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/6.png)
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -86,19 +98,5 @@ Ensure you have the following installed:
    # or
    yarn preview
    ```
-
-
-## Screenshots
-
-![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/1.png)
-![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/2.png)
-![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/3.png)
-![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/4.png)
-![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/5.png)
-![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/6.png)
-
-
-
-
 
 If you have any questions or need clarification, feel free to reach out @ samanthkumarsg@gmail.com
