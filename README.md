@@ -90,6 +90,13 @@ This project is hosted on Vercel. If you'd like to deploy it yourself:
 ## Screenshots
 
 ![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/1.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/2.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/3.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/4.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/5.png)
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/6.png)
+
+
 
 
 
