@@ -27,7 +27,7 @@ export interface SimulationResults {
 }
 
 export interface SimulatorFormProps {
-    activeConfigs: string[];
+    activeConfigs: PowerId[];
     config: ChargingConfig;
     availablePowers: AvailablePower[];
     updateConfig: (power: keyof ChargingConfig, field: keyof PowerConfig, value: number) => void;
@@ -36,6 +36,13 @@ export interface SimulatorFormProps {
     handleSubmit: (e: React.FormEvent) => void;
 }
 
+
+export interface ChargingPointsTypes {
+    activeConfigs: PowerId[];
+    config: ChargingConfig;
+    availablePowers: ChargingPower[];
+    addPowerConfig: (powerId: 'kw11' | 'kw22' | 'kw50') => void;
+}
 
 export interface InputProps {
     label: string;
@@ -46,6 +53,9 @@ export interface InputProps {
     type: 'number' | 'range';
     suffix?: string;
 }
+
+export type PowerId = "kw11" | "kw22" | "kw50";
+
 
 export type ChargingPower = {
     id: string;
@@ -65,7 +75,7 @@ export type AvailablePower = {
 
 export interface ConfigurationSummaryProps {
     activeConfigs: string[];
-    availablePowers: AvailablePower[];
+    availablePowers: ChargingPower[];
     config: ChargingConfig;
     calculateTotalPower: () => number;
     calculatePeakDemand: () => number;

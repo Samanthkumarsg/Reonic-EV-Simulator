@@ -1,11 +1,7 @@
 import React from 'react'
-import { ChargingConfig } from '../../types/types';
+import { ChargingConfig, ChargingPointsTypes, ChargingPower, PowerId } from '../../types/types';
 
-const ChargingPoints: React.FC<{
-    activeConfigs: string[];
-    availablePowers: string[];
-    config: ChargingConfig;
-}> = ({ activeConfigs, availablePowers, addPowerConfig, config }) => {
+const ChargingPoints: React.FC<ChargingPointsTypes> = ({ activeConfigs, availablePowers, addPowerConfig, config }) => {
     console.log(config)
     return (
 
@@ -25,11 +21,11 @@ const ChargingPoints: React.FC<{
 
                                     <div className="flex flex-wrap gap-4">
                                         {availablePowers.map(power => (
-                                            !activeConfigs.includes(power.id) && (
+                                            !activeConfigs.includes(power.id as PowerId) && (
                                                 <button
                                                     key={power.id}
                                                     type="button"
-                                                    onClick={() => addPowerConfig(power.id)}
+                                                    onClick={() => addPowerConfig(power.id as PowerId)}
                                                     className={`group flex items-center justify-center px-2 py-2 rounded-md text-xs font-medium shadow-sm text-white bg-gray-800  hover:bg-gray-800/95 `}
                                                 >
                                                     <svg className="h-4 w-4 mr-2 group-hover:scale-125" fill="none" viewBox="0 0 24 24" stroke="currentColor">

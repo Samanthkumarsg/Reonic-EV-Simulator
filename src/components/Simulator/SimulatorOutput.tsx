@@ -54,12 +54,14 @@ const SimulationOutput: React.FC<Props> = ({ results, config }: Props) => {
                                         </linearGradient>
                                     </defs>
                                     <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" />
+                                    // @ts-ignore
                                     <XAxis
                                         dataKey="hour"
                                         stroke="#6B7280"
                                         fontSize={12}
                                         tickLine={false}
                                     />
+                                    // @ts-ignore
                                     <YAxis
                                         stroke="#6B7280"
                                         fontSize={12}
@@ -93,12 +95,14 @@ const SimulationOutput: React.FC<Props> = ({ results, config }: Props) => {
                             <ResponsiveContainer width="100%" height="100%">
                                 <BarChart data={results.dailyData}>
                                     <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" />
+                                    // @ts-ignore
                                     <XAxis
                                         dataKey="date"
                                         stroke="#6B7280"
                                         fontSize={12}
                                         tickLine={false}
                                     />
+                                    // @ts-ignore
                                     <YAxis
                                         stroke="#6B7280"
                                         fontSize={12}
@@ -131,7 +135,7 @@ const SimulationOutput: React.FC<Props> = ({ results, config }: Props) => {
                 </div>
 
                 {/* Visual Representation Accordion */}
-                <div className="border border-gray-200 rounded-lg overflow-hidden">
+                <div className="border border-gray-200 rounded-lg mt-6">
                     <button
                         onClick={() => setIsVisualsOpen(!isVisualsOpen)}
                         className="w-full px-6 py-4 flex items-center justify-between bg-gray-50 hover:bg-gray-100 transition-colors"
