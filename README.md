@@ -89,8 +89,7 @@ This project is hosted on Vercel. If you'd like to deploy it yourself:
 
 ## Screenshots
 
-![Screenshot]([https://via.placeholder.com/800x400.png?text=Input+Form](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/tree/408c9fde353ce63218fac8db4855521c83093dcd/public/screenshots/1.png))
-
+![Screenshot](https://github.com/Samanthkumarsg/Reonic-EV-Simulator/blob/main/public/screenshots/1.png)
 
 
 
