@@ -2,6 +2,12 @@
 
 This is a frontend project simulating electric vehicle (EV) charging scenarios for shop parking spaces. The interface allows users to input parameters for a simulation and visualize precomputed outputs using static data. The project is built with **React**, **TypeScript**, and **Tailwind CSS**, hosted on **Vercel**.
 
+## Live Demo
+
+You can view the live demo of the project at the following link:
+
+[Reonic EV Simulator](https://reonic-ev-simulator.vercel.app/)
+
 ## About the Developer
 Hi! I'm **Samanth Kumar**, a passionate frontend developer with 4 years of experience working on modern frameworks like React, Next.js, and Tailwind CSS. 
 
@@ -26,10 +32,10 @@ This project was built entirely from scratch, leveraging modular components and 
 - **Total Energy Charged (kWh)**: Visualizes the total energy usage.
 - **Charging Events**:
   - Events per year, month, week, or day.
-  - Bar charts or heatmaps for aggregated data (e.g., max power demand, total energy).
+  - Bar charts for aggregated data (e.g., max power demand, total energy).
 
 ### Bonus
-- UI for creating different types of chargepoints (e.g., 5x11kW, 3x22kW, 1x50kW).
+- Added UI for creating different types of chargepoints (e.g., 5x11kW, 3x22kW, 1x50kW).
 
 ## Tech Stack
 - **React**: UI library for building components.
@@ -81,11 +87,6 @@ Ensure you have the following installed:
    yarn preview
    ```
 
-## Deployment
-This project is hosted on Vercel. If you'd like to deploy it yourself:
-1. Push the code to a GitHub repository.
-2. Connect the repository to Vercel.
-3. Follow the deployment instructions on the Vercel dashboard.
 
 ## Screenshots
 
