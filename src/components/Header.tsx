@@ -4,7 +4,7 @@ const Header: React.FC = () => {
     return (
         <div className="w-full border-b py-4 flex items-center justify-between ">
             <div className="px-6">
-                <h1 className="text-xs text-gray-950 h-6 w-[74px]">Ev Simulator </h1>
+                <h1 className="text-sm text-gray-950 ">Ev Simulator </h1>
             </div>
             <div className="">
                 <a
