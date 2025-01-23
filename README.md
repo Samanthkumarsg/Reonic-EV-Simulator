@@ -1,4 +1,4 @@
-# Reonic EV Simulator
+# EV Simulator
 
 This is a frontend project simulating electric vehicle (EV) charging scenarios for shop parking spaces. The interface allows users to input parameters for a simulation and visualize precomputed outputs using static data. The project is built with **React**, **TypeScript**, and **Tailwind CSS**, hosted on **Vercel**.
 
