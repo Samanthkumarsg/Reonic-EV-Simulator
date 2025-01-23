@@ -9,7 +9,7 @@ You can view the live demo of the project at the following link:
 [Reonic EV Simulator](https://reonic-ev-simulator.vercel.app/)
 
 ## About the Developer
-Hi! I'm **Samanth Kumar**, a passionate frontend developer with 4 years of experience working on modern frameworks like React, Next.js, and Tailwind CSS. 
+Hi! I'm **Samanth Kumar**, a passionate software engineer with 4 years of experience working on modern frameworks like React, Next.js, and Tailwind CSS. 
 
 ### My Approach
 To ensure a seamless development experience, I followed a design system approach. I began by defining consistent styles and components that align with Tailwind CSS's utility-first framework. This allowed me to create reusable UI elements while maintaining flexibility for customization. I consciously avoided using external UI libraries to keep the project lightweight and focused on core principles.
